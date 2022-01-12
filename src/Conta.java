@@ -1,5 +1,5 @@
 public abstract class Conta {
-	protected double saldo; //= 100; //Ao abrir uma conta o saldo já é 100. PRIVADO, não pode ser lido nem modificado a não ser dentro da própria classe.
+	protected double saldo; //= 100; //Ao Abrir uma conta o saldo já é 100. PRIVADO, não pode ser lido nem modificado a não ser dentro da própria classe.
 	private int agencia;
 	private int numero;
 	private Cliente titular; //Composição associar uma classe a outra.	// = new Cliente(); // Se quiser, toda vez que der um new conta abre um novo cliente, ou seja, ao abrir uma conta cria um novo cliente. Desta forma não precisa iniciá-la posteeiormente.
